@@ -14,6 +14,13 @@ On Outlook 2011 for Mac, allows you to select a UNC path, right click-> 'Navigat
 10.9.x:
 ---------------------
 Copy as UNC Path:  
-
+Same as above.
 
 Navigate to Path:  
+A lot was changed to get this working again, what a pain.
+
+File Folder Copy UNC:  
+Same as copy as UNC path, except if you run it on a file/folder it will also do the parent folder of that file/folder.
+
+Email UNC Path:  
+Same as file folder copy unc, however opens a new email with unc path in body.
