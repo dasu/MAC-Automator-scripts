@@ -24,3 +24,6 @@ Same as copy as UNC path, except if you run it on a file/folder it will also do 
 
 Email UNC Path:  
 Same as file folder copy unc, however opens a new email with unc path in body.
+
+
+I will add the actual workflows eventually.
