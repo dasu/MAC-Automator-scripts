@@ -4,6 +4,7 @@ MAC-Automator-scripts
 A few automator scripts to improve MAC workflow
 
 10.8.x:
+
 Copy as UNC Path:
 Right click file/folder from a network share on a MAC, select 'Copy as UNC path', it converts it to the proper UNC path, and places it in your clipboard.  Allowing you to send a working link to PC users.  Great for PC/MACs shared enviroment.
 
