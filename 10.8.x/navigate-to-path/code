@@ -1,0 +1,29 @@
+#Navigate to Path
+#PERL PT1
+
+$x = join("", <>);
+
+if($x =~ m/^\\\\(.*?)\\/i){
+	$x=~ s/\\\\(.*?)\\/smb:\/\/$1\//gi;
+	}
+$x=~ s/\\/\//gi;
+
+print $x;
+
+
+
+#PERL PT2
+
+
+$share=$ARGV[0];
+$unc=$ARGV[1];
+
+if($unc =~ m/^\\\\/i){
+	if($share =~ m/^\/Volumes\/(.*)/i){
+	$test=$1;
+	}
+$unc =~ s/\\\\.*?\\.*?\\/\/Volumes\/$test\//gi;
+$unc =~ s/\\/\//gi;
+
+print $unc;
+}
